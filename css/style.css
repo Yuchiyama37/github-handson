@@ -1,23 +1,7 @@
 /* ここから下に記載していく */
 
-@charset "UTF-8" ;
+@charset "UTF-8";
 
-
-@media screen and (max-width:640px) {
-    .body{
-    
-        max-width: 100%;
-        height: auto;
-    }
-    .img{
-        max-width: 100%;
-        height:auto ;
-    }
-    .nav{
-        display:none;
-    }
-    }
-        /* ナビゲーションを非表示にしたらできた！！！ */
 
 /* 全体設定 */
 
@@ -814,3 +798,20 @@ img{
 .copy-rights{
     color:white;
 }
+
+@media screen and (max-width:500px) {
+ /* htmlでmediaクエリ読み込みの設定が必要！！  */
+    .nav{
+        display:none;
+    }
+    .page{
+        height: auto;
+    }
+
+    .img{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    }
+        /* ナビゲーションを非表示にしたらできた！！！ */
