@@ -1,8 +1,6 @@
 /* ここから下に記載していく */
 
 
-
-
 /* 全体設定 */
 
 .page{
@@ -790,23 +788,17 @@ img{
     color:white;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:640px) {
     .body{
         max-width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        height: auto;
     }
     .img{
         max-width: 100%;
         height:auto ;
     }
-
-    .page{
-        width:100%;
-    }
     .nav{
         display:none;
-        /* ナビゲーションを非表示にしたらできた！！！ */
     }
-}
+    }
+        /* ナビゲーションを非表示にしたらできた！！！ */
