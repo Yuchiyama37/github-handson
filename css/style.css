@@ -1,6 +1,8 @@
 /* ここから下に記載していく */
 
 
+
+
 /* 全体設定 */
 
 .page{
@@ -61,6 +63,10 @@ img{
 /* メインヴィジュアル */
 .MV{
     position: relative;
+}
+
+.main-visual{
+    width:1200px;
 }
 
 .site-title{
@@ -784,7 +790,7 @@ img{
     color:white;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     .body{
         max-width: 100%;
         justify-content: center;
@@ -794,9 +800,10 @@ img{
     .img{
         max-width: 100%;
         height:auto ;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+    }
+
+    .page{
+        width:100%;
     }
     .nav{
         display:none;
