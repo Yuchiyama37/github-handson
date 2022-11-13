@@ -1,5 +1,23 @@
 /* ここから下に記載していく */
 
+@charset "UTF-8" ;
+
+
+@media screen and (max-width:640px) {
+    .body{
+    
+        max-width: 100%;
+        height: auto;
+    }
+    .img{
+        max-width: 100%;
+        height:auto ;
+    }
+    .nav{
+        display:none;
+    }
+    }
+        /* ナビゲーションを非表示にしたらできた！！！ */
 
 /* 全体設定 */
 
@@ -24,6 +42,11 @@ img{
 }
 
 /* Header */
+#header{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ナビゲーション */
 .nav{
@@ -61,10 +84,13 @@ img{
 /* メインヴィジュアル */
 .MV{
     position: relative;
+    justify-content: center;
+    width: 1200px;
 }
 
 .main-visual{
     width:1200px;
+    justify-content: center;
 }
 
 .site-title{
@@ -787,18 +813,3 @@ img{
 .copy-rights{
     color:white;
 }
-
-@media screen and (max-width:640px) {
-    .body{
-        max-width: 100%;
-        height: auto;
-    }
-    .img{
-        max-width: 100%;
-        height:auto ;
-    }
-    .nav{
-        display:none;
-    }
-    }
-        /* ナビゲーションを非表示にしたらできた！！！ */
